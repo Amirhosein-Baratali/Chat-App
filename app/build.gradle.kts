@@ -11,13 +11,13 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.cnote"
+        applicationId = "com.example.chatapp"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
-        testInstrumentationRunner = "com.example.cnote.HiltTestRunner"
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
             useSupportLibrary = true
         }
